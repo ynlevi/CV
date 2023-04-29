@@ -203,6 +203,9 @@ hr {
     content: '';
     margin: 0;
 }
+.bottom-container {
+    font-size: small;
+}
 
 
 /* לכבוד
