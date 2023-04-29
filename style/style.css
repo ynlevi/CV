@@ -119,7 +119,6 @@ hr {
     margin-right: 5vw;
     float: left;
 }
-
 @media(max-width: 670px) {
     .skill-row p {
         clear: left;
@@ -133,11 +132,10 @@ hr {
     .barista-icon+h3 {
         padding: 55px 1em;
     }
-    .contact-me {
-        padding-bottom: 10vh;
-    }
 }
-
+.contact-me {
+        padding-bottom: 10vh;
+}
 .contact-me-inner-container {
     width: 40vw;
     min-width: 300px;
