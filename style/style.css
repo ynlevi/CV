@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #98A8F8;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Sacramento', cursive;
+}
+
+@media(min-width: 700px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+hr {
+    border: lightgray dotted 1vh;
+    border-bottom: none;
+    margin: 5vh auto;
+    width: 7%;
+}
+
+.top-container {
+    text-align: center;
+    position: relative;
+    padding-top: 18vh;
+    background-color: #FAF7F0;
+    padding-bottom: 3vw;
+}
+
+.top-container h3 {
+    margin-top: 5vw;
+}
+
+.top-cloud-img,
+.middle-cloud-img {
+    position: absolute;
+    max-width: 15vw;
+}
+
+.top-cloud-img {
+    top: 12vh;
+    right: 20vw;
+}
+
+.middle-cloud-img {
+    top: 40vh;
+    left: 20vw;
+}
+
+.middle-container {
+    background-color: #CDFCF6;
+    color: #3F0071;
+}
+
+.mountain-img {
+    max-width: 90vw;
+}
+
+.profile p {
+    width: 33%;
+    min-width: 300px;
+    margin: 0 auto 3vh;
+}
+
+.profile-img {
+    width: 50vw;
+    max-width: 280px;
+    height: 50vw;
+    max-height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 70% 20%;
+    margin-top: 3vw;
+}
+
+.skill-row {
+    width: 50vw;
+    min-width: 300px;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-row img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.shark-icon,
+.barista-icon {
+    border-radius: 50%;
+    background-color: #BCCEF8;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    margin-right: 5vw;
+    float: left;
+}
+
+@media(max-width: 670px) {
+    .skill-row p {
+        clear: left;
+    }
+    .skill-row h3 {
+        text-align: right;
+    }
+    .shark-icon+h3 {
+        padding: 42.55px 1em;
+    }
+    .barista-icon+h3 {
+        padding: 55px 1em;
+    }
+    .contact-me {
+        padding-bottom: 10vh;
+    }
+}
+
+.contact-me-inner-container {
+    width: 40vw;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 2em;
+    padding: 1em;
+    padding-top: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.contact-me-inner-container:hover,
+ :focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-me-btn {
+    display: inline-block;
+    padding: 1em 2em;
+    /* margin-bottom: 1em; */
+    background-color: #98A8F8;
+    border-radius: .5em;
+    text-decoration: none;
+    color: #FAF7F0;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.contact-me-btn:hover,
+ :focus {
+    background-color: #788df4;
+}
+
+.bottom-container {
+    background-color: #3F0071;
+    color: #98A8F8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    color: #98A8F8;
+    margin: auto 0;
+}
+
+.footer-links a:hover,
+ :focus {
+    color: #FAF7F0;
+}
+
+.footer-links a::after {
+    content: '|';
+    margin: 0 2vw;
+    color: #98A8F8;
+}
+
+.footer-links a:last-child::after {
+    content: '';
+    margin: 0;
+}
+
+
+/* לכבוד
+    גב׳ נעה שגב
+
+
+    ברצוני להתנצל על מספר עניינים. 
+
+    בפתח דברי אדגיש ואומר שלא היה לי שום נסיון במערכת יחסים קודמת, אך עדיין אני גרמתי לך להרבה צער, ויש בכך גם בגללי, ואני רוצה לבקש את סליחתך. 
+    גילוי נאות, לצערי הרב ובניגוד להרבה נסיונות שלי עם עצמי, אני לא מצליח לשנוא אותך לאורך זמן.  אך אני בהחלט מכבד את החלטתך ואני לא הולך לשלוח לך הודעות ומכתבים נוספים.
+
+    אני שיחקתי בך קצת. ניצלתי את זה שאת תלויה בי רגשית ושאת רוצה אותי ולפעמים לא פעלתי ביושר. נהנתי מזה שהיית מנסה למשוך את תשומת ליבי בזמנים שרבנו, ולא באמת הייתי מוכן להתמודד עם התוצאת של ההחלטות הקשות והמכאיבות שלקחתי.  */
