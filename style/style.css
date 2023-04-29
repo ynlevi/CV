@@ -79,7 +79,7 @@ hr {
 }
 
 .profile p {
-    width: 33%;
+    width: 33vw;
     min-width: 300px;
     margin: 0 auto 3vh;
 }
